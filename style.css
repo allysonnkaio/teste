@@ -1,0 +1,244 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f0ff; /* Lilás claro */
+    color: #6a1b9a; /* Lilás escuro */
+    line-height: 1.6;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #6a1b9a; /* Lilás escuro */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ab47bc; /* Lilás médio */
+}
+
+.main-photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #ab47bc; /* Lilás médio */
+    margin: 20px 0;
+    object-fit: cover;
+}
+
+.message {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #6a1b9a; /* Lilás escuro */
+}
+
+.message p {
+    font-size: 1.1rem;
+    color: #4a148c; /* Lilás mais escuro */
+    margin-bottom: 10px;
+}
+
+.gallery {
+    margin: 20px 0;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #6a1b9a; /* Lilás escuro */
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ab47bc; /* Lilás médio */
+}
+.spotify-player {
+    margin: 20px 0;
+}
+
+.spotify-player h2 {
+    font-size: 2rem;
+    color: #6a1b9a; /* Lilás escuro */
+    margin-bottom: 10px;
+}
+
+.spotify-player iframe {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para a Página "Nossa História" */
+.historia {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.historia h2 {
+    font-size: 1.8rem;
+    color: #6a1b9a; /* Lilás escuro */
+    margin-bottom: 10px;
+}
+
+.historia p {
+    font-size: 1.1rem;
+    color: #4a148c; /* Lilás mais escuro */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.historia-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.voltar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.voltar a {
+    color: #ab47bc; /* Lilás médio */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.voltar a:hover {
+    text-decoration: underline;
+}
+/* Estilos para o Botão Minimalista */
+.btn-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.btn-minimalista {
+    background-color: transparent; /* Fundo transparente */
+    color: #6a1b9a; /* Lilás escuro */
+    border: 2px solid #6a1b9a; /* Borda lilás escuro */
+    padding: 10px 20px;
+    border-radius: 25px; /* Bordas arredondadas */
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-minimalista:hover {
+    background-color: #6a1b9a; /* Fundo lilás escuro ao passar o mouse */
+    color: #ffffff; /* Texto branco ao passar o mouse */
+}
+/* Estilos para a Página da Playlist */
+.playlist {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.musica {
+    margin-bottom: 20px;
+}
+
+.musica h2 {
+    font-size: 1.5rem;
+    color: #6a1b9a; /* Lilás escuro */
+    margin-bottom: 10px;
+}
+
+.musica iframe {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.voltar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.voltar a {
+    color: #ab47bc; /* Lilás médio */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.voltar a:hover {
+    text-decoration: underline;
+}
+/* Estilos para o Botão de Música */
+.btn-musica-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.btn-musica {
+    background-color: #6a1b9a; /* Lilás escuro */
+    color: #ffffff; /* Texto branco */
+    padding: 10px 20px;
+    border-radius: 25px; /* Bordas arredondadas */
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre o ícone e o texto */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-musica:hover {
+    background-color: #ab47bc; /* Lilás médio ao passar o mouse */
+}
+
+.btn-musica .icon {
+    font-size: 1.2rem;
+}
+
+.btn-musica .texto {
+    font-weight: bold;
+}
